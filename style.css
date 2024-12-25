@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+  }
+@font-face {
+    font-family: "v_Mouth Breather BB";
+    src: url("v_mouthbreatherbb.ttf");
+}
+
+@font-face {
+    font-family: "jaro";
+    src: url("jaro-cyrillic.otf");
+}
+
+body {
+font-family: "jaro";
+background: url(rock.png);
+background-repeat: repeat;
+}
+
+h1, h2 {
+    -webkit-text-stroke: 1px #c04141; /* Толщина и цвет обводки */
+    font-family: "v_Mouth Breather BB";
+    font-size: 500%;
+    text-align: center;
+}
+
+h2 {
+    margin: 20 20px;
+    font-size: 350%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+nav ul {
+    text-align: center;
+}
+nav ul li{
+    font-size: 200%;
+    List-style-type: none;
+    transform: rotate(15deg);
+    display: inline-block;
+    padding: 5px;
+    margin-top: 2%;
+    border: 3px solid;
+    border-radius: 20px;
+    background-color:rgb(212, 44, 44);
+    color: black;
+    transition: background-color 0.4s ease;
+    transition: border 0.4s ease;
+    margin-bottom: 5%;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    -webkit-text-stroke: 1px #000000;
+
+}
+
+nav ul li:hover:nth-child(n){
+    background-color:rgb(109, 30, 30);
+    border: 5px dashed white;
+}
+
+
+
+nav img{
+   width: 700px;
+   height: 500px; 
+   margin-left:27%;
+}
+
+main p {
+    font-size: 200%;
+    width: 80%;
+    margin-left: 10%;
+    border-top: 2px solid black;
+    -webkit-text-stroke: 1px #964242;
+}
+
+main li  {
+    background-image: url(https://static.tildacdn.com/tild6264-3036-4134-b235-616463353261/red-paint-brush-stro.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    List-style-type: none;
+    font-size: 250%;
+    text-align: center;
+    margin-left: 5%;
+    padding: 60px;
+}
+
+main .popa li:nth-child(2)  {
+    font-size: 220%;
+}
+main .ne-popa li:nth-child(1)  {
+    font-size: 220%;
+}
+main .ne-popa li:nth-child(2)  {
+    font-size: 220%;
+}
+main .ne-popa li:nth-child(3)  {
+    font-size: 220%;
+
+}
+li .metal {
+    -webkit-text-stroke: 0.1px #ffffff;
+    font-family: "v_Mouth Breather BB";
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+}
+.metal {
+    -webkit-text-stroke: 1px #971e1e;
+    font-family: "v_Mouth Breather BB";
+    font-size: 40px;
+}
